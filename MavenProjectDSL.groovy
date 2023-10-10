@@ -4,7 +4,7 @@ job('First-Maven-Project-Via-DSL') {
     //checkout the code from SCM
     //tsa magie io na tsatoka fa misy documentation
     scm {
-        git("https://github.com/manamisoaToussaint/MyFirstMavenProject.git", main)
+        git("https://github.com/manamisoaToussaint/MyFirstMavenProject.git", 'main')
     }
 
     //Trigers option
